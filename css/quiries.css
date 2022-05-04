@@ -1,0 +1,40 @@
+/* **********************MOBILE VERSION************************ */
+
+@media only screen and (max-width: 49em) {
+	.container {
+		margin: 5rem auto 5rem;
+		width: 50rem;
+	}
+	.grid {
+		display: grid;
+		grid-template-columns: 0.65fr;
+		grid-template-rows: repeat(3, 43rem);
+
+		justify-content: center;
+	}
+	img {
+		width: 11rem;
+		height: auto;
+		padding: 4.5rem 0 3rem 4.5rem;
+	}
+
+	.heading {
+		font-size: 3.5rem;
+		padding: 0 0 2.7rem 5rem;
+	}
+	.p-sed {
+		padding: 0 4rem 2.5rem 5rem;
+	}
+	.p-suv {
+		padding: 0 4rem 2.5rem 5rem;
+	}
+	.p-lux {
+		padding: 0 4rem 2.5rem 5rem;
+	}
+	.sedans {
+		border-radius: 0.8rem 0.8rem 0 0;
+	}
+	.luxury {
+		border-radius: 0 0 0.8rem 0.8rem;
+	}
+}

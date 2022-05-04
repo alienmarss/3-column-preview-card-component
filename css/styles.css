@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.5rem;
+	font-family: "Lexend Deca", sans-serif;
+	font-weight: 400;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+img {
+	width: 12rem;
+	height: auto;
+	padding: 4.5rem 0 4rem 5rem;
+}
+.container {
+	margin: 13rem auto 5rem;
+	width: 100rem;
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 0.4fr);
+	grid-template-rows: 53rem;
+	border-radius: 0.8rem;
+	overflow: hidden;
+}
+.heading {
+	text-transform: uppercase;
+	color: #f2f2f2;
+	font-family: "Big Shoulders Display", cursive;
+	font-weight: 700;
+	font-size: 4rem;
+	padding: 0 0 4rem 5rem;
+}
+.p-sed {
+	padding: 0 6.5rem 8rem 5rem;
+	line-height: 1.8;
+	text-align: left;
+	letter-spacing: 0.01rem;
+}
+.p-suv {
+	padding: 0 8rem 8rem 5rem;
+	line-height: 1.8;
+	text-align: left;
+}
+.p-lux {
+	padding: 0 7.5rem 8rem 5rem;
+	line-height: 1.8;
+	text-align: left;
+}
+.sedans {
+	background-color: #e38826;
+	display: flex;
+	flex-direction: column;
+}
+.suv {
+	background-color: #006970;
+	display: flex;
+	flex-direction: column;
+}
+.luxury {
+	background-color: #004241;
+	display: flex;
+	flex-direction: column;
+}
+.btn {
+	background-color: hsl(0, 0%, 95%);
+	padding: 1.4rem 3rem;
+	border-radius: 5rem;
+	width: 15rem;
+	cursor: pointer;
+	margin: 0 7.5rem 0 5rem;
+}
+.btn-sedan {
+	text-decoration: none;
+	color: #e38826;
+}
+.btn-sedan:hover,
+.btn-sedan:active {
+	background-color: #e38826;
+	color: #f2f2f2;
+	transition: all 0.3s;
+	box-shadow: inset 0 0 0 2px #f2f2f2;
+}
+.btn-suv {
+	text-decoration: none;
+	color: #006970;
+}
+.btn-suv:hover,
+.btn-suv:active {
+	background-color: #006970;
+	color: #f2f2f2;
+	transition: all 0.3s;
+	box-shadow: inset 0 0 0 2px #f2f2f2;
+}
+.btn-luxury {
+	text-decoration: none;
+	color: #004241;
+}
+.btn-luxury:hover,
+.btn-luxury:active {
+	background-color: #004241;
+	color: #f2f2f2;
+	transition: all 0.3s;
+	box-shadow: inset 0 0 0 2px #f2f2f2;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: #004241;
+}
+.attribution a {
+	color: #3e52a3;
+}
